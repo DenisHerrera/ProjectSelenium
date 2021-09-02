@@ -1,0 +1,306 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-09-02T22:39:36.603Z",
+        "line": 4,
+        "name": "Register a customer",
+        "description": "",
+        "id": "bank-manager;register-a-customer",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 15948151300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "The customer registration page is loaded",
+            "match": {
+              "location": "stepDefinition.Manager.the_customer_registration_page_is_loaded()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4314124200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Manager fills required fields too add a new customer",
+            "match": {
+              "location": "stepDefinition.Manager.manager_fills_required_fields_too_add_a_new_customer()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 48059100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Manager will see a popup with the confirmation of register",
+            "match": {
+              "location": "stepDefinition.Manager.manager_will_see_a_popup_with_the_confirmation_of_register()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-02T22:39:57.011Z",
+        "line": 9,
+        "name": "Open account",
+        "description": "",
+        "id": "bank-manager;open-account",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 152001100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "The open account page is loaded",
+            "match": {
+              "location": "stepDefinition.Manager.the_open_account_page_is_loaded()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1632686200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Manager selects options to add new account",
+            "match": {
+              "location": "stepDefinition.Manager.manager_selects_options_to_add_new_account()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 23945300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Manager will see a popup with the confirmation of account created",
+            "match": {
+              "location": "stepDefinition.Manager.manager_will_see_a_popup_with_the_confirmation_of_account_created()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-02T22:39:58.860Z",
+        "line": 14,
+        "name": "Delete customer",
+        "description": "",
+        "id": "bank-manager;delete-customer",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 167981400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "The customers page is loaded",
+            "match": {
+              "location": "stepDefinition.Manager.the_customers_page_is_loaded()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1204041400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Manager searches an account to delete",
+            "match": {
+              "location": "stepDefinition.Manager.manager_searches_an_account_to_delete()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 300161100,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Account deleted not will see in list of customers",
+            "match": {
+              "location": "stepDefinition.Manager.account_deleted_not_will_see_in_list_of_customers()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Bank Manager",
+    "description": "  The bank manager can register a new customer and open accounts for him.",
+    "id": "bank-manager",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/BankManager.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-09-02T22:40:00.557Z",
+        "line": 3,
+        "name": "Login with customer",
+        "description": "",
+        "id": "administration-customer;login-with-customer",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 110324600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Login page as customer is loaded",
+            "match": {
+              "location": "stepDefinition.Customer.login_page_as_customer_is_loaded()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 950266700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User selects his username to login",
+            "match": {
+              "location": "stepDefinition.Customer.user_selects_his_username_to_login()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 682624600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User will see a scream to manage their accounts",
+            "match": {
+              "location": "stepDefinition.Customer.user_will_see_a_scream_to_manage_their_accounts()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-02T22:40:02.326Z",
+        "line": 8,
+        "name": "Deposit in an account",
+        "description": "",
+        "id": "administration-customer;deposit-in-an-account",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 113374600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "The section for deposit is loaded",
+            "match": {
+              "location": "stepDefinition.Customer.the_section_for_deposit_is_loaded()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 745821400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User enters amount to deposit",
+            "match": {
+              "location": "stepDefinition.Customer.user_enters_amount_to_deposit()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 115261200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User will see a message confirming the deposit",
+            "match": {
+              "location": "stepDefinition.Customer.user_will_see_a_message_confirming_the_deposit()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-02T22:40:03.326Z",
+        "line": 13,
+        "name": "withdraw money",
+        "description": "",
+        "id": "administration-customer;withdraw-money",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 112077000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "The section for withdraw is loaded",
+            "match": {
+              "location": "stepDefinition.Customer.the_section_for_withdraw_is_loaded()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 875002800,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User enter amount to withdraw",
+            "match": {
+              "location": "stepDefinition.Customer.user_enter_amount_to_withdraw()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9461539000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User will see a massage confirming the withdraw",
+            "match": {
+              "location": "stepDefinition.Customer.user_will_see_a_massage_confirming_the_withdraw()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Administration customer",
+    "description": "",
+    "id": "administration-customer",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Customer.feature",
+    "tags": []
+  }
+]

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="6" time="37.643">
+    <testcase classname="Bank Manager" name="Register a customer" time="20.344">
+        <system-out><![CDATA[Given The customer registration page is loaded..............................passed
+When Manager fills required fields too add a new customer...................passed
+Then Manager will see a popup with the confirmation of register.............passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Bank Manager" name="Open account" time="1.808">
+        <system-out><![CDATA[Given The open account page is loaded.......................................passed
+When Manager selects options to add new account.............................passed
+Then Manager will see a popup with the confirmation of account created......passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Bank Manager" name="Delete customer" time="1.682">
+        <system-out><![CDATA[Given The customers page is loaded..........................................passed
+When Manager searches an account to delete..................................passed
+Then Account deleted not will see in list of customers......................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Administration customer" name="Login with customer" time="1.753">
+        <system-out><![CDATA[Given Login page as customer is loaded......................................passed
+When User selects his username to login.....................................passed
+Then User will see a scream to manage their accounts........................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Administration customer" name="Deposit in an account" time="0.983">
+        <system-out><![CDATA[Given The section for deposit is loaded.....................................passed
+When User enters amount to deposit..........................................passed
+Then User will see a message confirming the deposit.........................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Administration customer" name="withdraw money" time="10.456">
+        <system-out><![CDATA[Given The section for withdraw is loaded....................................passed
+When User enter amount to withdraw..........................................passed
+Then User will see a massage confirming the withdraw........................passed
+]]></system-out>
+    </testcase>
+</testsuite>
